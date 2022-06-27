@@ -1,4 +1,5 @@
 module.exports = {
-  lang: 'zh-CN',
-  title: '你好， VuePress ！',
+  lang: 'en-US',
+  title: 'arthas',
+  description: 'arthas 使用文档',
 }
