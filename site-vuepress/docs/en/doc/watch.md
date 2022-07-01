@@ -45,7 +45,9 @@ Start `math-game` in [Quick Start](quick-start.md).
 
 #### Check the `out parameters`, `this` and `return value`
 
-> The expression to watch, default value `{params, target, returnObj}`
+::: tip
+The expression to watch, default value `{params, target, returnObj}`
+:::
 
 ```bash
 $ watch demo.MathGame primeFactors -x 2
@@ -274,7 +276,9 @@ ts=2021-01-05 21:35:20; [cost=0.173966ms] result=@ArrayList[
 
 #### Exclude the specified class
 
-> The watch/trace/monitor/stack/tt commands all support the `--exclude-class-pattern` parameter
+::: tip
+The watch/trace/monitor/stack/tt commands all support the `--exclude-class-pattern` parameter
+:::
 
 Use the `--exclude-class-pattern` parameter to exclude the specified class, for example:
 
@@ -292,7 +296,9 @@ options disable-sub-class true
 
 #### Use the -v parameter to print more information
 
-> The watch/trace/monitor/stack/tt commands all support the `-v` parameter.
+::: tip
+The watch/trace/monitor/stack/tt commands all support the `-v` parameter.
+:::
 
 When the command is executed, there is no output result. There are two possibilities:
 

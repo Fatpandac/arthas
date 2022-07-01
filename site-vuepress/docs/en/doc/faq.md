@@ -2,7 +2,9 @@ FAQ
 ===
 
 
-> For questions that are not in this list, please search in issues. [https://github.com/alibaba/arthas/issues](https://github.com/alibaba/arthas/issues)
+::: tip
+For questions that are not in this list, please search in issues. [https://github.com/alibaba/arthas/issues](https://github.com/alibaba/arthas/issues)
+:::
 
 
 ##### Where is the log file?
@@ -33,7 +35,9 @@ options unsafe true
 
 See more at [options](options.md)
 
-> To support the jars appended by java.lang.instrument.Instrumentation#appendToBootstrapClassLoaderSearch need to enable unsafe.
+::: tip
+To support the jars appended by java.lang.instrument.Instrumentation#appendToBootstrapClassLoaderSearch need to enable unsafe.
+:::
 
 ##### How to view the result in `json` format
 

@@ -3,7 +3,9 @@ heapdump
 
 [`heapdump` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=command-heapdump)
 
-> dump java heap in hprof binary format, like `jmap`.
+::: tip
+dump java heap in hprof binary format, like `jmap`.
+:::
 
 
 ### Usage
@@ -31,6 +33,3 @@ Heap dump file created
 Dumping heap to /var/folders/my/wy7c9w9j5732xbkcyt1mb4g40000gp/T/heapdump2019-09-03-16-385121018449645518991.hprof...
 Heap dump file created
 ```
-
-
-
