@@ -33,6 +33,7 @@ module.exports = {
         selectLanguageText: '选择语言',
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdated: '上次更新',
+        navbar: require('./configs/navbar/zh'),
         sidebar: require('./configs/sidebar/zh'),
       },
       '/en/': {
@@ -40,6 +41,7 @@ module.exports = {
         selectLanguageText: 'Languages',
         editLinkText: 'Edit this page on GitHub',
         lastUpdated: 'Last Updated',
+        navbar: require('./configs/navbar/en'),
         sidebar: require('./configs/sidebar/en'),
       },
     }
