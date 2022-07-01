@@ -11,17 +11,15 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'arthas',
       description: 'arthas 使用文档'
     },
     '/en/': {
       lang: 'en-US',
-      title: 'arthas',
       description: 'arthas user document'
     },
   },
   theme: defaultTheme({
-    logo: '/images/arthas.png',
+    logo: '/images/logo.png',
 
     repo: 'alibaba/arthas',
     docsDir: 'site-vuepress/docs',
@@ -32,7 +30,8 @@ module.exports = {
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
         editLinkText: '在 GitHub 上编辑此页',
-        lastUpdated: '上次更新',
+        lastUpdatedText: '上次更新',
+        contributorsText: '贡献者',
         navbar: require('./configs/navbar/zh'),
         sidebar: require('./configs/sidebar/zh'),
       },
