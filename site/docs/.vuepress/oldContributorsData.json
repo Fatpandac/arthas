@@ -11,7 +11,7 @@
       "commits": 1
     }
   ],
-  "doc/sm.md": [
+  "commands/sm.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -28,21 +28,21 @@
       "commits": 1
     }
   ],
-  "doc/session.md": [
+  "commands/session.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "doc/retransform.md": [
+  "commands/retransform.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
       "commits": 3
     }
   ],
-  "doc/redefine.md": [
+  "commands/redefine.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -59,7 +59,7 @@
       "commits": 1
     }
   ],
-  "doc/quit.md": [
+  "commands/quit.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
@@ -93,7 +93,7 @@
       "commits": 1
     }
   ],
-  "doc/profiler.md": [
+  "commands/profiler.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -105,7 +105,7 @@
       "commits": 1
     }
   ],
-  "doc/perfcounter.md": [
+  "commands/perfcounter.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -117,7 +117,7 @@
       "commits": 1
     }
   ],
-  "doc/options.md": [
+  "commands/options.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -134,7 +134,7 @@
       "commits": 1
     }
   ],
-  "doc/ognl.md": [
+  "commands/ognl.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -151,7 +151,7 @@
       "commits": 1
     }
   ],
-  "doc/monitor.md": [
+  "commands/monitor.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -180,7 +180,7 @@
       "commits": 1
     }
   ],
-  "doc/mc.md": [
+  "commands/mc.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -202,7 +202,7 @@
       "commits": 1
     }
   ],
-  "doc/mbean.md": [
+  "commands/mbean.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -231,7 +231,7 @@
       "commits": 1
     }
   ],
-  "doc/keymap.md": [
+  "commands/keymap.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -243,7 +243,7 @@
       "commits": 1
     }
   ],
-  "doc/jvm.md": [
+  "commands/jvm.md": [
     {
       "name": "bohr.qiu",
       "email": "bohr.qiu@gmail.com",
@@ -260,7 +260,7 @@
       "commits": 1
     }
   ],
-  "doc/jad.md": [
+  "commands/jad.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -345,21 +345,21 @@
       "commits": 1
     }
   ],
-  "doc/history.md": [
+  "commands/history.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "doc/help.md": [
+  "commands/help.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "doc/heapdump.md": [
+  "commands/heapdump.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -383,7 +383,7 @@
       "commits": 1
     }
   ],
-  "doc/grep.md": [
+  "commands/grep.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -395,7 +395,7 @@
       "commits": 1
     }
   ],
-  "doc/getstatic.md": [
+  "commands/getstatic.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -429,7 +429,7 @@
       "commits": 1
     }
   ],
-  "doc/echo.md": [
+  "commands/echo.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -441,7 +441,7 @@
       "commits": 1
     }
   ],
-  "doc/dump.md": [
+  "commands/dump.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -477,7 +477,7 @@
       "commits": 1
     }
   ],
-  "doc/dashboard.md": [
+  "commands/dashboard.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -523,14 +523,14 @@
       "commits": 1
     }
   ],
-  "doc/cls.md": [
+  "commands/cls.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "doc/classloader.md": [
+  "commands/classloader.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -547,7 +547,7 @@
       "commits": 1
     }
   ],
-  "doc/cat.md": [
+  "commands/cat.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -571,14 +571,14 @@
       "commits": 1
     }
   ],
-  "doc/base64.md": [
+  "commands/base64.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
       "commits": 1
     }
   ],
-  "doc/auth.md": [
+  "commands/auth.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -652,14 +652,14 @@
       "commits": 1
     }
   ],
-  "doc/README.md": [
+  "commands/README.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
       "commits": 1
     }
   ],
-  "doc/stack.md": [
+  "commands/stack.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -671,7 +671,7 @@
       "commits": 1
     }
   ],
-  "doc/thread.md": [
+  "commands/thread.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -698,7 +698,7 @@
       "commits": 1
     }
   ],
-  "doc/sysenv.md": [
+  "commands/sysenv.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -710,7 +710,7 @@
       "commits": 1
     }
   ],
-  "doc/tee.md": [
+  "commands/tee.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -727,14 +727,14 @@
       "commits": 1
     }
   ],
-  "doc/stop.md": [
+  "commands/stop.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "doc/trace.md": [
+  "commands/trace.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -756,7 +756,7 @@
       "commits": 1
     }
   ],
-  "doc/pwd.md": [
+  "commands/pwd.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -775,7 +775,7 @@
       "commits": 8
     }
   ],
-  "doc/reset.md": [
+  "commands/reset.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -799,7 +799,7 @@
       "commits": 1
     }
   ],
-  "doc/sc.md": [
+  "commands/sc.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -830,14 +830,14 @@
       "commits": 6
     }
   ],
-  "doc/vmtool.md": [
+  "commands/vmtool.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
       "commits": 3
     }
   ],
-  "doc/tt.md": [
+  "commands/tt.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -869,7 +869,7 @@
       "commits": 1
     }
   ],
-  "doc/vmoption.md": [
+  "commands/vmoption.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -881,7 +881,7 @@
       "commits": 1
     }
   ],
-  "doc/logger.md": [
+  "commands/logger.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -898,7 +898,7 @@
       "commits": 1
     }
   ],
-  "doc/sysprop.md": [
+  "commands/sysprop.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -910,14 +910,14 @@
       "commits": 1
     }
   ],
-  "doc/version.md": [
+  "commands/version.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "doc/watch.md": [
+  "commands/watch.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -951,7 +951,7 @@
       "commits": 1
     }
   ],
-  "en/doc/sm.md": [
+  "en/commands/sm.md": [
     {
       "name": "Hearen",
       "email": "LHearen@126.com",
@@ -978,14 +978,14 @@
       "commits": 1
     }
   ],
-  "en/doc/session.md": [
+  "en/commands/session.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "en/doc/sc.md": [
+  "en/commands/sc.md": [
     {
       "name": "Hearen",
       "email": "LHearen@126.com",
@@ -1039,14 +1039,14 @@
       "commits": 1
     }
   ],
-  "en/doc/retransform.md": [
+  "en/commands/retransform.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
       "commits": 3
     }
   ],
-  "en/doc/reset.md": [
+  "en/commands/reset.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1080,7 +1080,7 @@
       "commits": 1
     }
   ],
-  "en/doc/redefine.md": [
+  "en/commands/redefine.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1112,7 +1112,7 @@
       "commits": 1
     }
   ],
-  "en/doc/quit.md": [
+  "en/commands/quit.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
@@ -1156,7 +1156,7 @@
       "commits": 1
     }
   ],
-  "en/doc/pwd.md": [
+  "en/commands/pwd.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1168,7 +1168,7 @@
       "commits": 1
     }
   ],
-  "en/doc/profiler.md": [
+  "en/commands/profiler.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1180,7 +1180,7 @@
       "commits": 1
     }
   ],
-  "en/doc/perfcounter.md": [
+  "en/commands/perfcounter.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1192,7 +1192,7 @@
       "commits": 1
     }
   ],
-  "en/doc/options.md": [
+  "en/commands/options.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1219,7 +1219,7 @@
       "commits": 1
     }
   ],
-  "en/doc/ognl.md": [
+  "en/commands/ognl.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1236,7 +1236,7 @@
       "commits": 1
     }
   ],
-  "en/doc/monitor.md": [
+  "en/commands/monitor.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1275,7 +1275,7 @@
       "commits": 1
     }
   ],
-  "en/doc/mc.md": [
+  "en/commands/mc.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1297,7 +1297,7 @@
       "commits": 1
     }
   ],
-  "en/doc/mbean.md": [
+  "en/commands/mbean.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1341,7 +1341,7 @@
       "commits": 1
     }
   ],
-  "en/doc/logger.md": [
+  "en/commands/logger.md": [
     {
       "name": "Hollow Man",
       "email": "hollowman@hollowman.ml",
@@ -1358,7 +1358,7 @@
       "commits": 1
     }
   ],
-  "en/doc/keymap.md": [
+  "en/commands/keymap.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1380,7 +1380,7 @@
       "commits": 1
     }
   ],
-  "en/doc/jvm.md": [
+  "en/commands/jvm.md": [
     {
       "name": "bohr.qiu",
       "email": "bohr.qiu@gmail.com",
@@ -1407,7 +1407,7 @@
       "commits": 1
     }
   ],
-  "en/doc/jad.md": [
+  "en/commands/jad.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1532,21 +1532,21 @@
       "commits": 1
     }
   ],
-  "en/doc/history.md": [
+  "en/commands/history.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "en/doc/help.md": [
+  "en/commands/help.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "en/doc/heapdump.md": [
+  "en/commands/heapdump.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1570,7 +1570,7 @@
       "commits": 1
     }
   ],
-  "en/doc/grep.md": [
+  "en/commands/grep.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1582,7 +1582,7 @@
       "commits": 1
     }
   ],
-  "en/doc/getstatic.md": [
+  "en/commands/getstatic.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1631,7 +1631,7 @@
       "commits": 1
     }
   ],
-  "en/doc/echo.md": [
+  "en/commands/echo.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1643,7 +1643,7 @@
       "commits": 1
     }
   ],
-  "en/doc/dump.md": [
+  "en/commands/dump.md": [
     {
       "name": "Hearen",
       "email": "LHearen@126.com",
@@ -1694,7 +1694,7 @@
       "commits": 1
     }
   ],
-  "en/doc/dashboard.md": [
+  "en/commands/dashboard.md": [
     {
       "name": "LHearen",
       "email": "lhearen@gmail.com",
@@ -1765,14 +1765,14 @@
       "commits": 1
     }
   ],
-  "en/doc/cls.md": [
+  "en/commands/cls.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "en/doc/classloader.md": [
+  "en/commands/classloader.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1804,7 +1804,7 @@
       "commits": 1
     }
   ],
-  "en/doc/cat.md": [
+  "en/commands/cat.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1838,14 +1838,14 @@
       "commits": 1
     }
   ],
-  "en/doc/base64.md": [
+  "en/commands/base64.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
       "commits": 1
     }
   ],
-  "en/doc/auth.md": [
+  "en/commands/auth.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -1967,7 +1967,7 @@
       "commits": 1
     }
   ],
-  "en/doc/README.md": [
+  "en/commands/README.md": [
     {
       "name": "LHearen",
       "email": "lhearen@gmail.com",
@@ -1979,7 +1979,7 @@
       "commits": 1
     }
   ],
-  "en/doc/stack.md": [
+  "en/commands/stack.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -2030,14 +2030,14 @@
       "commits": 8
     }
   ],
-  "en/doc/stop.md": [
+  "en/commands/stop.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "en/doc/sysenv.md": [
+  "en/commands/sysenv.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -2049,7 +2049,7 @@
       "commits": 1
     }
   ],
-  "en/doc/sysprop.md": [
+  "en/commands/sysprop.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -2071,7 +2071,7 @@
       "commits": 1
     }
   ],
-  "en/doc/tee.md": [
+  "en/commands/tee.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -2088,7 +2088,7 @@
       "commits": 1
     }
   ],
-  "en/doc/thread.md": [
+  "en/commands/thread.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -2125,7 +2125,7 @@
       "commits": 1
     }
   ],
-  "en/doc/tt.md": [
+  "en/commands/tt.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -2162,14 +2162,14 @@
       "commits": 1
     }
   ],
-  "en/doc/version.md": [
+  "en/commands/version.md": [
     {
       "name": "Fu",
       "email": "dkafussss@gmail.com",
       "commits": 1
     }
   ],
-  "en/doc/watch.md": [
+  "en/commands/watch.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -2203,14 +2203,14 @@
       "commits": 5
     }
   ],
-  "en/doc/vmtool.md": [
+  "en/commands/vmtool.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
       "commits": 3
     }
   ],
-  "en/doc/trace.md": [
+  "en/commands/trace.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",
@@ -2247,7 +2247,7 @@
       "commits": 1
     }
   ],
-  "en/doc/vmoption.md": [
+  "en/commands/vmoption.md": [
     {
       "name": "hengyunabc",
       "email": "hengyunabc@gmail.com",

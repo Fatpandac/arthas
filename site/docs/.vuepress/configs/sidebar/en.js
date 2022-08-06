@@ -31,7 +31,10 @@ module.exports = {
             },
           ],
         },
-        "/en/doc/commands.md",
+        {
+          text: "Commands",
+          link: "/en/commands/",
+        },
         "/en/doc/web-console.md",
         "/en/doc/tunnel.md",
         "/en/doc/http-api.md",

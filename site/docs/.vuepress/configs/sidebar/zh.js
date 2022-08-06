@@ -35,7 +35,10 @@ module.exports = {
             },
           ],
         },
-        "/doc/commands.md",
+        {
+          text: "命令列表",
+          link: "/commands/",
+        },
         "/doc/web-console.md",
         "/doc/tunnel.md",
         "/doc/http-api.md",

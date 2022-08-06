@@ -102,13 +102,34 @@ module.exports = {
               page.path,
             ])
         );
-
         delete redirects["/doc/en/"];
         redirects["/doc/en/index.html"] = "/en/doc/index.html";
         redirects["/en-us/index.html"] = "/en/index.html";
         redirects["/zh-cn/index.html"] = "/index.html";
 
-        return redirects;
+        const redirectCommands = Object.fromEntries(
+          app.pages
+            .filter((page) => page.path.startsWith("/commands/"))
+            .map((page) => [
+              page.path.replace(/^\/commands\//, "/doc/"),
+              page.path,
+            ])
+        );
+        delete redirectCommands["/doc/"];
+        redirectCommands["/doc/commands.html"] = "/commands/index.html";
+
+        const redirectEnCommands = Object.fromEntries(
+          app.pages
+            .filter((page) => page.path.startsWith("/en/commands/"))
+            .map((page) => [
+              page.path.replace(/^\/en\/commands\//, "/doc/en/"),
+              page.path,
+            ])
+        );
+        delete redirectEnCommands["/doc/en/"];
+        redirectEnCommands["/doc/en/commands.html"] = "/en/commands/index.html";
+
+        return Object.assign(redirectCommands, redirectEnCommands, redirects);
       },
     }),
     activeHeaderLinksPlugin({
