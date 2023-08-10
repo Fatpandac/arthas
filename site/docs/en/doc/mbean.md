@@ -1,6 +1,6 @@
 # mbean
 
-[`mbean` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=command-mbean)
+[`mbean` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=mbean)
 
 ::: tip
 show Mbean information
@@ -46,7 +46,7 @@ mbean java.lang:type=Th*
 ```
 
 ::: warning
-Notes：ObjectName matching rules differ from normal wildcards, Reference resources：[javax.management.ObjectName](https://docs.oracle.com/javase/8/docs/api/javax/management/ObjectName.html?is-external=true)
+Notes: ObjectName matching rules differ from normal wildcards, Reference resources:[javax.management.ObjectName](https://docs.oracle.com/javase/8/docs/api/javax/management/ObjectName.html?is-external=true)
 :::
 
 Wildcards match specific attributes:

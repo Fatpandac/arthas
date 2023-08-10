@@ -1,12 +1,12 @@
 # dashboard
 
-[`dashboard`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=command-dashboard)
+[`dashboard`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=dashboard)
 
 ::: tip
 当前系统的实时数据面板，按 ctrl+c 退出。
 :::
 
-当运行在 Ali-tomcat 时，会显示当前 tomcat 的实时信息，如 HTTP 请求的 qps, rt, 错误数, 线程池信息等等。
+当运行在 Ali-tomcat 时，会显示当前 tomcat 的实时信息，如 HTTP 请求的 qps, rt, 错误数，线程池信息等等。
 
 ## 参数说明
 
@@ -57,7 +57,7 @@ uptime                                                         272s
 - ID: Java 级别的线程 ID，注意这个 ID 不能跟 jstack 中的 nativeID 一一对应。
 - NAME: 线程名
 - GROUP: 线程组名
-- PRIORITY: 线程优先级, 1~10 之间的数字，越大表示优先级越高
+- PRIORITY: 线程优先级，1~10 之间的数字，越大表示优先级越高
 - STATE: 线程的状态
 - CPU%: 线程的 cpu 使用率。比如采样间隔 1000ms，某个线程的增量 cpu 时间为 100ms，则 cpu 使用率=100/1000=10%
 - DELTA_TIME: 上次采样之后线程运行增量 CPU 时间，数据格式为`秒`
@@ -67,17 +67,17 @@ uptime                                                         272s
 
 ### JVM 内部线程
 
-Java 8 之后支持获取 JVM 内部线程 CPU 时间，这些线程只有名称和 CPU 时间，没有 ID 及状态等信息（显示 ID 为-1）。
+Java 8 之后支持获取 JVM 内部线程 CPU 时间，这些线程只有名称和 CPU 时间，没有 ID 及状态等信息（显示 ID 为 -1）。
 通过内部线程可以观测到 JVM 活动，如 GC、JIT 编译等占用 CPU 情况，方便了解 JVM 整体运行状况。
 
-- 当 JVM 堆(heap)/元数据(metaspace)空间不足或 OOM 时，可以看到 GC 线程的 CPU 占用率明显高于其他的线程。
+- 当 JVM 堆 (heap)/元数据 (metaspace) 空间不足或 OOM 时，可以看到 GC 线程的 CPU 占用率明显高于其他的线程。
 - 当执行`trace/watch/tt/redefine`等命令后，可以看到 JIT 线程活动变得更频繁。因为 JVM 热更新 class 字节码时清除了此 class 相关的 JIT 编译结果，需要重新编译。
 
 JVM 内部线程包括下面几种：
 
-- JIT 编译线程: 如 `C1 CompilerThread0`, `C2 CompilerThread0`
-- GC 线程: 如`GC Thread0`, `G1 Young RemSet Sampling`
-- 其它内部线程: 如`VM Periodic Task Thread`, `VM Thread`, `Service Thread`
+- JIT 编译线程：如 `C1 CompilerThread0`, `C2 CompilerThread0`
+- GC 线程：如`GC Thread0`, `G1 Young RemSet Sampling`
+- 其它内部线程：如`VM Periodic Task Thread`, `VM Thread`, `Service Thread`
 
 ## 截图展示
 

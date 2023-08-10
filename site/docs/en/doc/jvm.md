@@ -1,6 +1,6 @@
 # jvm
 
-[`jvm` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=command-jvm)
+[`jvm` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=jvm)
 
 ::: tip
 Check the current JVM's info
@@ -120,5 +120,5 @@ Affect(row-cnt:0) cost in 88 ms.
 
 ## File descriptor related
 
-- MAX-FILE-DESCRIPTOR-COUNT：the count of max file descriptor JVM process can open
-- OPEN-FILE-DESCRIPTOR-COUNT：the current count of file descriptor JVM process open
+- MAX-FILE-DESCRIPTOR-COUNT: the count of max file descriptor JVM process can open
+- OPEN-FILE-DESCRIPTOR-COUNT: the current count of file descriptor JVM process open

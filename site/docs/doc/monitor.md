@@ -1,6 +1,6 @@
 # monitor
 
-[`monitor`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=command-monitor)
+[`monitor`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=monitor)
 
 ::: tip
 方法执行监控
@@ -8,7 +8,7 @@
 
 对匹配 `class-pattern`／`method-pattern`／`condition-express`的类、方法的调用进行监控。
 
-`monitor` 命令是一个非实时返回命令.
+`monitor` 命令是一个非实时返回命令。
 
 实时返回命令是输入之后立即返回，而非实时返回的命令，则是不断的等待目标 Java 进程返回信息，直到用户输入 `Ctrl+C` 为止。
 
@@ -87,7 +87,7 @@ Affect(class count:1 , method count:1) cost in 384 ms, listenerId: 6.
  2022-12-25 21:12:59  demo.MathGame  primeFactors  0      0        0     0.00       0.00%
 ```
 
-### 计算条件表达式过滤统计结果(方法执行完毕之后)
+### 计算条件表达式过滤统计结果 (方法执行完毕之后)
 
 ```bash
 monitor -c 5 demo.MathGame primeFactors "params[0] <= 2"
@@ -114,7 +114,7 @@ Affect(class count: 1 , method count: 1) cost in 19 ms, listenerId: 5
  2020-09-02 09:42:56  demo.MathGame  primeFactors    5       3       2      0.15       40.00%
 ```
 
-### 计算条件表达式过滤统计结果(方法执行完毕之前)
+### 计算条件表达式过滤统计结果 (方法执行完毕之前)
 
 ```bash
 monitor -b -c 5 com.test.testes.MathGame primeFactors "params[0] <= 2"

@@ -1,6 +1,6 @@
 # tee
 
-[`tee` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=command-tee)
+[`tee` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=tee)
 
 ::: tip
 Similar to the traditional `tee` command, it is used to read standard input data and output its contents into a file.

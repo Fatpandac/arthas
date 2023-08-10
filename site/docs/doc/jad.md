@@ -1,6 +1,6 @@
 # jad
 
-[`jad`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials?language=cn&id=command-jad)
+[`jad`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=jad)
 
 ::: tip
 反编译指定已加载类的源码

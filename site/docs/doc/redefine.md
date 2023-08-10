@@ -4,7 +4,7 @@
 推荐使用 [retransform](retransform.md) 命令
 :::
 
-[`mc-redefine`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials?language=cn&id=command-mc-redefine)
+[`mc-redefine`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=mc-redefine)
 
 ::: tip
 加载外部的`.class`文件，redefine jvm 已加载的类。
@@ -25,7 +25,7 @@
 - 目前 redefine 和 watch/trace/jad/tt 等命令冲突，以后重新实现 redefine 功能会解决此问题
 
 ::: warning
-注意， redefine 后的原来的类不能恢复，redefine 有可能失败（比如增加了新的 field），参考 jdk 本身的文档。
+注意，redefine 后的原来的类不能恢复，redefine 有可能失败（比如增加了新的 field），参考 jdk 本身的文档。
 :::
 
 ::: tip
@@ -98,13 +98,13 @@ public class MathGame {
         while (true) {
             game.run();
             TimeUnit.SECONDS.sleep(1);
-            // 这个不生效，因为代码一直跑在 while里
+            // 这个不生效，因为代码一直跑在 while 里
             System.out.println("in loop");
         }
     }
 
     public void run() throws InterruptedException {
-        // 这个生效，因为run()函数每次都可以完整结束
+        // 这个生效，因为 run() 函数每次都可以完整结束
         System.out.println("call run()");
         try {
             int number = random.nextInt();

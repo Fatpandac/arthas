@@ -1,6 +1,6 @@
 # monitor
 
-[`monitor` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=command-monitor)
+[`monitor` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=monitor)
 
 ::: tip
 Monitor method invocation.

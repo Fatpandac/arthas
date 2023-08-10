@@ -1,9 +1,9 @@
 # sysenv
 
-[`sysenv`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=command-sysenv)
+[`sysenv`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=sysenv)
 
 ::: tip
-查看当前 JVM 的环境属性(`System Environment Variables`)
+查看当前 JVM 的环境属性 (`System Environment Variables`)
 :::
 
 ## 使用参考

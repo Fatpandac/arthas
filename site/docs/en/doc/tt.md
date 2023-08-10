@@ -1,6 +1,6 @@
 # tt
 
-[`tt` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=command-tt)
+[`tt` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=tt)
 
 Check the `parameters`, `return values` and `exceptions` of the methods at different times.
 
@@ -170,7 +170,7 @@ Affect(row-cnt:1) cost in 14 ms.
 
 `-w, --watch-express` watch the time fragment by ognl express.
 
-- You can used all variables in [fundamental fields in expressions](advice-class.md) for the watch express。
+- You can used all variables in [fundamental fields in expressions](advice-class.md) for the watch express.
 
 ```bash
 [arthas@10718]$ tt -t demo.MathGame run -n 5

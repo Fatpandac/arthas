@@ -1,6 +1,6 @@
 # heapdump
 
-[`heapdump`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=command-heapdump)
+[`heapdump`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=heapdump)
 
 ::: tip
 dump java heap, 类似 jmap 命令的 heap dump 功能。
@@ -17,7 +17,7 @@ Heap dump file created
 ```
 
 ::: tip
-生成文件在`arthas-output`目录，可以通过浏览器下载： http://localhost:8563/arthas-output/
+生成文件在`arthas-output`目录，可以通过浏览器下载：http://localhost:8563/arthas-output/
 :::
 
 ### 只 dump live 对象

@@ -1,6 +1,6 @@
 # grep
 
-[`grep` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=command-grep)
+[`grep` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=grep)
 
 ::: tip
 Similar to the traditional `grep` command.

@@ -1,6 +1,6 @@
 # mc
 
-[`mc-retransform` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials?language=en&id=command-mc-retransform)
+[`mc-retransform` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=mc-retransform)
 
 ## Usage
 

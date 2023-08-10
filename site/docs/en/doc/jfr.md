@@ -1,6 +1,6 @@
 # jfr
 
-[`jfr` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=command-jfr)
+[`jfr` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=jfr)
 
 ::: tip
 Java Flight Recorder (JFR) is a tool for collecting diagnostic and profiling data about a running Java application. It is integrated into the Java Virtual Machine (JVM) and causes almost no performance overhead, so it can be used even in heavily loaded production environments.
@@ -113,4 +113,4 @@ By default, arthas uses http port 8563 , which can be opened:[http://localhost:8
 
 The resulting results can be viewed with tools that support the JFR format. Such as:
 
-- JDK Mission Control ： https://github.com/openjdk/jmc
+- JDK Mission Control : https://github.com/openjdk/jmc

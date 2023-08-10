@@ -1,6 +1,6 @@
 # tt
 
-[`tt`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=command-tt)
+[`tt`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=tt)
 
 ::: tip
 方法执行数据的时空隧道，记录下指定方法每次调用的入参和返回信息，并能对这些不同的时间下调用进行观测
@@ -167,7 +167,7 @@ Affect(row-cnt:1) cost in 11 ms.
 当你稍稍做了一些调整之后，你可能需要前端系统重新触发一次你的调用，此时得求爷爷告奶奶的需要前端配合联调的同学再次发起一次调用。而有些场景下，这个调用不是这么好触发的。
 
 `tt` 命令由于保存了当时调用的所有现场信息，所以我们可以自己主动对一个 `INDEX` 编号的时间片自主发起一次调用，从而解放你的沟通成本。此时你需要 `-p` 参数。通过 `--replay-times` 指定
-调用次数，通过 `--replay-interval` 指定多次调用间隔(单位 ms, 默认 1000ms)
+调用次数，通过 `--replay-interval` 指定多次调用间隔 (单位 ms, 默认 1000ms)
 
 ```bash
 $ tt -i 1004 -p
@@ -223,7 +223,7 @@ Affect(class count: 1 , method count: 1) cost in 56 ms, listenerId: 1
 @Integer[46]
 ```
 
-注意这里使用 `com.taobao.arthas.core.advisor.Advice#getLoader`加载,使用精确`classloader` [ognl](ognl.md)更好。
+注意这里使用 `com.taobao.arthas.core.advisor.Advice#getLoader`加载，使用精确`classloader` [ognl](ognl.md)更好。
 
 高级用法 [获取 spring context 调用 bean 方法](https://github.com/alibaba/arthas/issues/482)
 

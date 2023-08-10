@@ -1,6 +1,6 @@
 # options
 
-[`options` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=command-options)
+[`options` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=options)
 
 ::: tip
 Global options

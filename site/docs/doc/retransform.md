@@ -1,6 +1,6 @@
 # retransform
 
-[`mc-retransform`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials?language=cn&id=command-mc-retransform)
+[`mc-retransform`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=mc-retransform)
 
 ::: tip
 加载外部的`.class`文件，retransform jvm 已加载的类。
@@ -66,7 +66,7 @@ retransform success, size: 1, classes:
 demo.MathGame
 ```
 
-> 注意：对于同一个类，当存在多个 retransform entry 时，如果显式触发 retransform ，则最后添加的 entry 生效(id 最大的)。
+> 注意：对于同一个类，当存在多个 retransform entry 时，如果显式触发 retransform，则最后添加的 entry 生效 (id 最大的)。
 
 ## 消除 retransform 的影响
 
@@ -76,7 +76,7 @@ demo.MathGame
 - 重新触发 retransform
 
 ::: tip
-如果不清除掉所有的 retransform entry，并重新触发 retransform ，则 arthas stop 时，retransform 过的类仍然生效。
+如果不清除掉所有的 retransform entry，并重新触发 retransform，则 arthas stop 时，retransform 过的类仍然生效。
 :::
 
 ## 结合 jad/mc 命令使用
@@ -125,13 +125,13 @@ public class MathGame {
         while (true) {
             game.run();
             TimeUnit.SECONDS.sleep(1);
-            // 这个不生效，因为代码一直跑在 while里
+            // 这个不生效，因为代码一直跑在 while 里
             System.out.println("in loop");
         }
     }
 
     public void run() throws InterruptedException {
-        // 这个生效，因为run()函数每次都可以完整结束
+        // 这个生效，因为 run() 函数每次都可以完整结束
         System.out.println("call run()");
         try {
             int number = random.nextInt();

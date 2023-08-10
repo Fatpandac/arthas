@@ -111,7 +111,7 @@ Supported configuration: [tunnel-server application.properties](https://github.c
 
 Start the tunnel-server locally, then use `as.sh` attach, and specify the application name `--app-name test`:
 
-```
+```bash
 $ as.sh --tunnel-server 'ws://127.0.0.1:7777/ws' --app-name test
 telnet connecting to arthas server... current timestamp is 1627539688
 Trying 127.0.0.1...

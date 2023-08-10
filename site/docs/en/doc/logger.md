@@ -1,6 +1,6 @@
 # logger
 
-[`logger` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials?language=en&id=command-logger)
+[`logger` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=logger)
 
 ::: tip
 Print the logger information, update the logger level
@@ -146,9 +146,9 @@ update logger level success.
 
 ### Speecify classloader to update logger level
 
-By default，logger command will be executed under SystemClassloader, if the application is a traditional `war`, or using spring boot fat jar, then it needs to specify classloader。
+By default, logger command will be executed under SystemClassloader, if the application is a traditional `war`, or using spring boot fat jar, then it needs to specify classloader。
 
-You can first use `sc -d yourClassName` to check specified classloader hashcode，then specify classloader when updating logger level:
+You can first use `sc -d yourClassName` to check specified classloader hashcode, then specify classloader when updating logger level:
 
 ```bash
 [arthas@2062]$ logger -c 2a139a55 --name ROOT --level debug

@@ -1,6 +1,6 @@
 # dump
 
-[`dump`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials?language=cn&id=command-dump)
+[`dump`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=dump)
 
 ::: tip
 dump 已加载类的 bytecode 到特定目录
@@ -60,6 +60,6 @@ $ dump --classLoaderClass sun.misc.Launcher$AppClassLoader demo.*
 Affect(row-cnt:1) cost in 39 ms.
 ```
 
-- 注: 这里 classLoaderClass 在 java 8 是 sun.misc.Launcher$AppClassLoader，而java 11的classloader是jdk.internal.loader.ClassLoaders$AppClassLoader，katacoda 目前环境是 java8。
+- 注：这里 classLoaderClass 在 java 8 是 sun.misc.Launcher$AppClassLoader，而 java 11 的 classloader 是 jdk.internal.loader.ClassLoaders$AppClassLoader，katacoda 目前环境是 java8。
 
 `--classLoaderClass` 的值是 ClassLoader 的类名，只有匹配到唯一的 ClassLoader 实例时才能工作，目的是方便输入通用命令，而`-c <hashcode>`是动态变化的。

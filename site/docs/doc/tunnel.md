@@ -6,7 +6,7 @@
 
 在这种情况下，可以使用 Arthas Tunnel Server/Client。
 
-参考:
+参考：
 
 - 1: [Web Console](web-console.md)
 - 2: [Arthas Spring Boot Starter](spring-boot-starter.md)
@@ -115,7 +115,7 @@ Tunnel server 会以`_`做分隔符，提取出`appName`，方便按应用进行
 
 在本地启动 tunnel-server，然后使用`as.sh` attach，并且指定应用名`--app-name test`：
 
-```
+```bash
 $ as.sh --tunnel-server 'ws://127.0.0.1:7777/ws' --app-name test
 telnet connecting to arthas server... current timestamp is 1627539688
 Trying 127.0.0.1...

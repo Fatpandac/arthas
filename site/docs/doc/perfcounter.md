@@ -1,6 +1,6 @@
 # perfcounter
 
-[`perfcounter`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=command-perfcounter)
+[`perfcounter`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=perfcounter)
 
 ::: tip
 查看当前 JVM 的 Perf Counter 信息

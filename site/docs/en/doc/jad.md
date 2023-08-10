@@ -1,6 +1,6 @@
 # jad
 
-[`jad` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials?language=en&id=command-jad)
+[`jad` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=jad)
 
 ::: tip
 Decompile the specified classes.

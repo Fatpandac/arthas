@@ -1,6 +1,6 @@
 # trace
 
-[`trace`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=command-trace)
+[`trace`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=trace)
 
 ::: tip
 方法内部调用路径，并输出方法路径上的每个节点上耗时
@@ -151,7 +151,7 @@ Affect(class-cnt:1 , method-cnt:1) cost in 41 ms.
 只会展示耗时大于 10ms 的调用路径，有助于在排查问题的时候，只关注异常情况
 :::
 
-- 是不是很眼熟，没错，在 JProfiler 等收费软件中你曾经见识类似的功能，这里你将可以通过命令就能打印出指定调用路径。 友情提醒下，`trace` 在执行的过程中本身是会有一定的性能开销，在统计的报告中并未像 JProfiler 一样预先减去其自身的统计开销。所以这统计出来有些许的不准，渲染路径上调用的类、方法越多，性能偏差越大。但还是能让你看清一些事情的。
+- 是不是很眼熟，没错，在 JProfiler 等收费软件中你曾经见识类似的功能，这里你将可以通过命令就能打印出指定调用路径。友情提醒下，`trace` 在执行的过程中本身是会有一定的性能开销，在统计的报告中并未像 JProfiler 一样预先减去其自身的统计开销。所以这统计出来有些许的不准，渲染路径上调用的类、方法越多，性能偏差越大。但还是能让你看清一些事情的。
 - [12.033735ms] 的含义，`12.033735` 的含义是：当前节点在当前步骤的耗时，单位为毫秒
 - [0,0,0ms,11]xxx:yyy() [throws Exception]，对该方法中相同的方法调用进行了合并，`0,0,0ms,11` 表示方法调用耗时，`min,max,total,count`；`throws Exception` 表明该方法调用中存在异常返回
 - 这里存在一个统计不准确的问题，就是所有方法耗时加起来可能会小于该监测方法的总耗时，这个是由于 Arthas 本身的逻辑会有一定的耗时

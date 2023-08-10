@@ -1,6 +1,6 @@
 # ognl
 
-[`ognl` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials?language=en&id=command-ognl)
+[`ognl` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=ognl)
 
 ::: tip
 Execute ognl expression.

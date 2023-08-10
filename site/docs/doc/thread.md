@@ -1,6 +1,6 @@
 # thread
 
-[`thread`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=command-thread)
+[`thread`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=thread)
 
 ::: tip
 查看当前线程信息，查看线程的堆栈
@@ -22,13 +22,13 @@
 
 ### 工作原理说明：
 
-- 首先第一次采样，获取所有线程的 CPU 时间(调用的是`java.lang.management.ThreadMXBean#getThreadCpuTime()`及`sun.management.HotspotThreadMBean.getInternalThreadCpuTimes()`接口)
+- 首先第一次采样，获取所有线程的 CPU 时间 (调用的是`java.lang.management.ThreadMXBean#getThreadCpuTime()`及`sun.management.HotspotThreadMBean.getInternalThreadCpuTimes()`接口)
 - 然后睡眠等待一个间隔时间（默认为 200ms，可以通过`-i`指定间隔时间）
 - 再次第二次采样，获取所有线程的 CPU 时间，对比两次采样数据，计算出每个线程的增量 CPU 时间
 - 线程 CPU 使用率 = 线程增量 CPU 时间 / 采样间隔时间 \* 100%
 
 ::: warning
-注意： 这个统计也会产生一定的开销（JDK 这个接口本身开销比较大），因此会看到 as 的线程占用一定的百分比，为了降低统计自身的开销带来的影响，可以把采样间隔拉长一些，比如 5000 毫秒。
+注意：这个统计也会产生一定的开销（JDK 这个接口本身开销比较大），因此会看到 as 的线程占用一定的百分比，为了降低统计自身的开销带来的影响，可以把采样间隔拉长一些，比如 5000 毫秒。
 :::
 
 ::: tip
@@ -119,7 +119,7 @@ $ thread 1
 
 ### thread -b, 找出当前阻塞其他线程的线程
 
-有时候我们发现应用卡住了， 通常是由于某个线程拿住了某个锁， 并且其他线程都在等待这把锁造成的。 为了排查这类问题， arthas 提供了`thread -b`， 一键找出那个罪魁祸首。
+有时候我们发现应用卡住了，通常是由于某个线程拿住了某个锁，并且其他线程都在等待这把锁造成的。为了排查这类问题，arthas 提供了`thread -b`，一键找出那个罪魁祸首。
 
 ```bash
 $ thread -b
@@ -161,7 +161,7 @@ $ thread -b
 ```
 
 ::: warning
-注意， 目前只支持找出 synchronized 关键字阻塞住的线程， 如果是`java.util.concurrent.Lock`， 目前还不支持。
+注意，目前只支持找出 synchronized 关键字阻塞住的线程，如果是`java.util.concurrent.Lock`，目前还不支持。
 :::
 
 ### thread -i, 指定采样时间间隔
@@ -191,7 +191,7 @@ $ thread -n 3 -i 1000
 ...
 ```
 
-### thread --state ，查看指定状态的线程
+### thread --state，查看指定状态的线程
 
 ```bash
 [arthas@28114]$ thread --state WAITING

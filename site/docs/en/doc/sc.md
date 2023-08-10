@@ -1,6 +1,6 @@
 # sc
 
-[`sc` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials?language=en&id=command-sc)
+[`sc` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=sc)
 
 ::: tip
 Search classes loaded by JVM.

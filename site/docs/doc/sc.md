@@ -1,12 +1,12 @@
 # sc
 
-[`sc`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials?language=cn&id=command-sc)
+[`sc`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=sc)
 
 ::: tip
 查看 JVM 已加载的类信息
 :::
 
-“Search-Class” 的简写，这个命令能搜索出所有已经加载到 JVM 中的 Class 信息，这个命令支持的参数有 `[d]`、`[E]`、`[f]` 和 `[x:]`。
+“Search-Class”的简写，这个命令能搜索出所有已经加载到 JVM 中的 Class 信息，这个命令支持的参数有 `[d]`、`[E]`、`[f]` 和 `[x:]`。
 
 ## 参数说明
 
@@ -107,7 +107,7 @@ sc 默认开启了子类匹配功能，也就是说所有当前类的子类也�
   Affect(row-cnt:1) cost in 19 ms.
   ```
 
-- 通过 ClassLoader#toString 查找类（前提：有一个 toString()返回值是`apo`的类加载器，加载的类中包含`demo.MathGame`, `demo.MyBar`,` demo.MyFoo`3 个类）
+- 通过 ClassLoader#toString 查找类（前提：有一个 toString() 返回值是`apo`的类加载器，加载的类中包含`demo.MathGame`, `demo.MyBar`,` demo.MyFoo`3 个类）
 
   ```bash
   $ sc -cs apo *demo*

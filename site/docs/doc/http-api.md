@@ -1,6 +1,6 @@
 # Http API
 
-[`Http API`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=case-http-api)
+[`Http API`在线教程](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=cn&id=http-api)
 
 ## 概览
 
@@ -35,9 +35,9 @@ Http API 接口地址为：`http://ip:port/api`，必须使用 POST 方式提交
 - `sessionId` : Arthas 会话 ID，一次性命令不需要设置会话 ID。
 - `consumerId` : Arthas 消费者 ID，用于多人共享会话。
 - `command` : Arthas command line 。
-- `execTimeout` : 命令同步执行的超时时间(ms)，默认为 30000。
+- `execTimeout` : 命令同步执行的超时时间 (ms)，默认为 30000。
 
-注意: 不同的 action 使用到参数不同，根据具体的 action 来设置参数。
+注意：不同的 action 使用到参数不同，根据具体的 action 来设置参数。
 
 ### 请求 Action
 
@@ -152,7 +152,7 @@ curl -Ss -XPOST http://localhost:8563/api -d '
 由用户创建及管理 Arthas 会话，适用于复杂的交互过程。访问流程如下：
 
 - 创建会话
-- 加入会话(可选）
+- 加入会话 (可选）
 - 拉取命令结果
 - 执行一系列命令
 - 中断命令执行
@@ -178,7 +178,7 @@ curl -Ss -XPOST http://localhost:8563/api -d '
 }
 ```
 
-当前会话 ID 为： `b09f1353-202c-407b-af24-701b744f971e`， 当前消费者 ID 为：`5ae4e5fbab8b4e529ac404f260d4e2d1_1 `。
+当前会话 ID 为： `b09f1353-202c-407b-af24-701b744f971e`，当前消费者 ID 为：`5ae4e5fbab8b4e529ac404f260d4e2d1_1 `。
 
 ### 加入会话
 
@@ -222,7 +222,7 @@ curl -Ss -XPOST http://localhost:8563/api -d '
 '
 ```
 
-用 Bash 脚本定时拉取结果消息:
+用 Bash 脚本定时拉取结果消息：
 
 ```bash
 while true; do curl -Ss -XPOST http://localhost:8563/api -d '
@@ -480,7 +480,7 @@ curl -Ss -XPOST http://localhost:8563/api -d '''
 `type`为`status`表示命令执行状态：
 
 每个命令执行结束后都有唯一一个 status 结果。`statusCode`
-为 0 表示执行成功，`statusCode` 为非 0 值表示执行失败，类似进程退出码(exit code)。
+为 0 表示执行成功，`statusCode` 为非 0 值表示执行失败，类似进程退出码 (exit code)。
 
 命令执行失败时一般会提供错误消息，如：
 
@@ -585,7 +585,7 @@ classpath: demo-arthas-spring-boot.jar
 
 注意：
 
-- `echo $json_data | tr -d '\n'` : 删除换行符(`line.separator`的值)，避免影响`sed`/`json_pp`命令处理。
+- `echo $json_data | tr -d '\n'` : 删除换行符 (`line.separator`的值)，避免影响`sed`/`json_pp`命令处理。
 - `awk -F'"' '{ print $4 }'` : 使用双引号作为分隔符号
 
 <a id="change_watch_value_to_map"></a>

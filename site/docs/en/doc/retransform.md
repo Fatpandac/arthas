@@ -1,6 +1,6 @@
 # retransform
 
-[`mc-retransform` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials?language=en&id=command-mc-retransform)
+[`mc-retransform` online tutorial](https://arthas.aliyun.com/doc/arthas-tutorials.html?language=en&id=mc-retransform)
 
 ::: tip
 Load the external `*.class` files to retransform the loaded classes in JVM.
